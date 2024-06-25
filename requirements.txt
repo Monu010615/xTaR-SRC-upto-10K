@@ -1,0 +1,11 @@
+https://devgagan.in/wp-content/uploads/2023/12/gagantelethon.zip
+tgcrypto
+#Pyrogram==2.0.93
+git+https://github.com/AkRao47/pyrogram
+psutil
+opencv-python-headless
+python-decouple
+requests
+speedtest-cli
+pymongo
+yt-dlp
