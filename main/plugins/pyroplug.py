@@ -1,4 +1,4 @@
-# Join t.me/dev_gagan
+# Join t.me/xTaR_Main
 
 import asyncio, time, os
 
@@ -74,7 +74,7 @@ async def send_video_with_chat_id(client, sender, path, caption, duration, hi, w
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading: [xTaR](https://t.me/All_Sub_Batches)__**\n ',
+                '**__Uploading: [@The_real_xTaR](https://t.me/xTaR_Main)__**\n ',
                 upm,
                 time.time()
             )
@@ -97,7 +97,7 @@ async def send_document_with_chat_id(client, sender, path, caption, thumb_path, 
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading:__**\n**__Bot made by [xTaR](https://t.me/All_Sub_Batches)__**',
+                '**__Uploading:__**\n**__Bot made by [@The_real_xTaR](https://https://t.me/xTaR_Main)__**',
                 upm,
                 time.time()
             )
