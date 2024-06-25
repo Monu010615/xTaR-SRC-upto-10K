@@ -215,7 +215,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**__Unrestricting__: __[xTaR](https://t.me/All_Sub_Batches)__**\n ",
+                    "**__Unrestricting__: __[The_real_xTaR](https://t.me/xTaR_Main)__**\n ",
                     edit,
                     time.time()
                 )
@@ -256,7 +256,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[xTaR](https://t.me/All_Sub_Batches)**__" if msg.caption else "__Unrestricted by **[xTaR](https://t.me/All_Sub_Batches)**__"
+                caption = f"{msg.caption}\n\n__Unrestricted by **[The_real_xTaR](https://t.me/xTaR_Main)**__" if msg.caption else "__Unrestricted by **[The_real_xTaR](https://t.me/xTaR_Main)**__"
                 await send_video_with_chat_id(client, sender, path, caption, duration, hi, wi, thumb_path, upm)
             elif str(file).split(".")[-1] in ['jpg', 'jpeg', 'png', 'webp']:
                 if file_n != '':
@@ -270,7 +270,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[xTaR](https://t.me/All_Sub_Batches)**__" if msg.caption else "__Unrestricted by **[xTaR](https://t.me/All_Sub_Batches)**__"
+                caption = f"{msg.caption}\n\n__Unrestricted by **[The_real_xTaR](https://t.me/xTaR_Main)**__" if msg.caption else "__Unrestricted by **[xTaR](https://t.me/All_Sub_Batches)**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -286,7 +286,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path = "thumb.jpg"
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[xTaR](https://t.me/All_Sub_Batches)**__" if msg.caption else "__Unrestricted by **[xTaR](https://t.me/All_Sub_Batches)**__"
+                caption = f"{msg.caption}\n\n__Unrestricted by **[The_real_xTaR](https://t.me/xTaR_Main)**__" if msg.caption else "__Unrestricted by **[The_real_xTaR](https://t.me/xTaR_Main)**__"
                 await send_document_with_chat_id(client, sender, path, caption, thumb_path, upm)
             os.remove(file)
             await upm.delete()
@@ -384,7 +384,7 @@ async def ggn_new(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**__Unrestricting__: __[xTaR](https://t.me/All_Sub_Batches)__**\n ",
+                    "**__Unrestricting__: __[The_real_xTaR](https://t.me/xTaR_Main)__**\n ",
                     edit,
                     time.time()
                 )
