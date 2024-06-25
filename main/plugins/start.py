@@ -23,8 +23,8 @@ async def start(event):
     """
     user_id = event.sender_id
     buttons = [
-        [Button.url("Join Channel", url="https://t.me/All_Sub_Batches")],
-        [Button.url("Contact Me", url="https://t.me/Free_batch_lo")],
+        [Button.url("Join Channel", url="https://t.me/xTaR_Main")],
+        [Button.url("Contact Me", url="https://t.me/The_real_xTaR")],
     ]
     # Sending photo with caption and buttons
     await gagan.send_file(
@@ -124,7 +124,7 @@ async def youtube_dl_command(_, message):
 
             # Get video metadata
             metadata = video_metadata(original_file)
-            caption = f"{video_info['title']}\n\n__**Powered by [Advance Content Saver Bot](https://t.me/advance_content_saver_bot)**__"  # Set caption to the title of the video
+            caption = f"{video_info['title']}\n\n__**Powered by [xTaR Content Saver Bot](https://t.me/xTaR_SRC_bot)**__"  # Set caption to the title of the video
             
             # Send the video file and thumbnail
             ggn = message.chat.id
